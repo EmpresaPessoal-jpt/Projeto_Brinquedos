@@ -40,3 +40,41 @@ nav ul{
 .banner-img{
     width: 100%;
 }
+main {
+    padding: 70px;
+}
+main div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF9FC5;
+    padding: 20px;
+    border-radius: 40px;
+    min-width: 500px;
+    max-width: 500px;
+}
+h2{
+    color:#602540;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.texto p {
+    font-weight: 800;
+    text-align: center;
+}
+.marvel{
+    width: 500px;
+    border-radius: 43%;
+}
+.dc{
+    width: 600px;
+    border-radius: 200px;
+}
