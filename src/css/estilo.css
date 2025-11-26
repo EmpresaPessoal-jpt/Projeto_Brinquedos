@@ -12,10 +12,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    height: 130px;
+    padding: 45px;
 }
 .title{
     font-weight: 300;
+    font-size: 2.5rem;
     color:#FF9FC5;
 }
 nav ul{
@@ -26,12 +28,15 @@ nav ul{
     text-decoration: none;
     color:#FF9FC5;
     margin-left: 35px;
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 .login{
     background:#fff;
     color:#602540;
     font-weight: 1000;
-    padding: 12px 30px;
-    border-radius: 15px;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+.banner-img{
+    width: 100%;
 }
