@@ -78,3 +78,25 @@ h2{
     width: 600px;
     border-radius: 200px;
 }
+footer {
+    background-color: #96305A;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+}
+footer ul li a img {
+    width: 60px;
+    margin: 0 10px;
+}
+h6 {
+    font-size: .8rem;
+    margin-top: 20px;
+    color: #fff;
+}
